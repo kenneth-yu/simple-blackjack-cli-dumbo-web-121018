@@ -65,6 +65,9 @@ end
 #####################################################
 
 def runner
-  # code runner here
+  until current_total = 21 do
+    welcome 
+    initial_round 
+    hit? 
 end
     

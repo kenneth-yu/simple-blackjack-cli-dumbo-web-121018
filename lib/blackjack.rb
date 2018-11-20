@@ -67,9 +67,9 @@ end
 def runner
   welcome
   card_total = initial_round
-  binding.pry
   while card_total < 21 do
     card_total = card_total + hit?(card_total)
+    binding.pry
     display_card_total(card_total)
   end
   end_game(card_total)

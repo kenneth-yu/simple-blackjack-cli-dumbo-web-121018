@@ -67,7 +67,7 @@ end
 def runner
   welcome
   card_total = initial_round
-  puts card_total
+  binding.pry
   while card_total < 21 do
     card_total = card_total + hit?(card_total)
     display_card_total(card_total)

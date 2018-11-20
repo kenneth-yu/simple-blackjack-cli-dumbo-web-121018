@@ -65,7 +65,7 @@ end
 #####################################################
 
 def runner
-  until current_total = 21 do
+  until current_total == 21 do
     welcome 
     initial_round 
     hit? 
